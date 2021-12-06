@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "d1683363-bb35-49ff-b83e-06fc3382025b",
+		"name": "digitaleyes.market",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://us-central1-digitaleyes-prod.cloudfunctions.net/offers-retriever",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://us-central1-digitaleyes-prod.cloudfunctions.net/offers-retriever?collection=Skeleton%20Crew%20SKULLS&price=asc'",
+					"protocol": "https",
+					"host": [
+						"us-central1-digitaleyes-prod",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"offers-retriever"
+					],
+					"query": [
+						{
+							"key": "collection",
+							"value": "Skeleton%20Crew%20SKULLS"
+						},
+						{
+							"key": "price",
+							"value": "asc'"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

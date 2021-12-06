@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "809b2257-8249-4099-b2ac-b86a1dccd5c6",
+		"name": "solanart.io",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://qzlsklfacc.medianetwork.cloud/nft_for_sale",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://qzlsklfacc.medianetwork.cloud/nft_for_sale?collection=skeletoncrew",
+					"protocol": "https",
+					"host": [
+						"qzlsklfacc",
+						"medianetwork",
+						"cloud"
+					],
+					"path": [
+						"nft_for_sale"
+					],
+					"query": [
+						{
+							"key": "collection",
+							"value": "skeletoncrew"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

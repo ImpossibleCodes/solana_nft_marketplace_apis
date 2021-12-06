@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "f1335498-696e-468a-aa59-92ede5a382d8",
+		"name": "exchange.art",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.exchange.art/v1/public/tokens",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.exchange.art/v1/public/tokens?limit=10&sort=price-asc&from=0&filters={\"tokenListingTypes\":[\"listed\",\"unlisted\"],\"collections\":[\"Skeleton Crew SKULLS\"]}&view=collection",
+					"protocol": "https",
+					"host": [
+						"api",
+						"exchange",
+						"art"
+					],
+					"path": [
+						"v1",
+						"public",
+						"tokens"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10"
+						},
+						{
+							"key": "sort",
+							"value": "price-asc"
+						},
+						{
+							"key": "from",
+							"value": "0"
+						},
+						{
+							"key": "filters",
+							"value": "{\"tokenListingTypes\":[\"listed\",\"unlisted\"],\"collections\":[\"Skeleton Crew SKULLS\"]}"
+						},
+						{
+							"key": "view",
+							"value": "collection"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

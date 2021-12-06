@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "edf0dff3-8907-4240-9e3c-6cf5e1889e8a",
+		"name": "magiceden.io",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api-mainnet.magiceden.io/rpc/getListedNFTsByQuery",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api-mainnet.magiceden.io/rpc/getListedNFTsByQuery?q={\"$match\":{\"collectionSymbol\":\"skeleton_crew_skulls\"},\"$sort\":{\"createdAt\":-1},\"$skip\":0,\"$limit\":20}",
+					"protocol": "https",
+					"host": [
+						"api-mainnet",
+						"magiceden",
+						"io"
+					],
+					"path": [
+						"rpc",
+						"getListedNFTsByQuery"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{\"$match\":{\"collectionSymbol\":\"skeleton_crew_skulls\"},\"$sort\":{\"createdAt\":-1},\"$skip\":0,\"$limit\":20}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

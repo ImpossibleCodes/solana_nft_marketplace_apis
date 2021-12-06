@@ -1,0 +1,1 @@
+curl --location --request GET 'https://us-central1-digitaleyes-prod.cloudfunctions.net/offers-retriever?collection=Skeleton%20Crew%20SKULLS&price=asc'

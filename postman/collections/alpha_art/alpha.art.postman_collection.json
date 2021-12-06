@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "e197d630-1089-4b10-9570-2f897981e77f",
+		"name": "alpha.art",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://apis.alpha.art/api/v1/collection",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"collectionId\": \"skeleton-crew\",\n    \"orderBy\": \"PRICE_LOW_TO_HIGH\",\n    \"status\": [\n        \"BUY_NOW\"\n    ],\n    \"traits\": []\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://apis.alpha.art/api/v1/collection",
+					"protocol": "https",
+					"host": [
+						"apis",
+						"alpha",
+						"art"
+					],
+					"path": [
+						"api",
+						"v1",
+						"collection"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
